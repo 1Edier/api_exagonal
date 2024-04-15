@@ -21,7 +21,7 @@ function boostrap() {
   .catch((err) => console.error("Error connecting to database: " + err));
 
   app.listen(port, () => {
-    console.log(`[APP] - Starting application on port ${port}`);
+    console.log(`corriendo api en puerto ${port}`);
   });
 }
 
